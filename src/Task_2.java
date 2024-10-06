@@ -102,7 +102,7 @@ public class Task_2 {
         Notification pushNotification = new PushNotification();
         NotificationService pushService = new NotificationService(pushNotification);
         pushService.sendNotification("Hello via Push", "NiKiT0$");
-
+//
         String[] recipients = {"Nikita", "Sanat", "Zhenis", "Beibars"};
         pushService.sendBulkNotification("Hello everyone via Bulk Push Notification", recipients);
     }
