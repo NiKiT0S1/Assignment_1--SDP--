@@ -67,7 +67,7 @@ class PaymentProcessor {
 }
 
 // TEST
-class Task_1 {
+public class Task_1 {
     public static void main(String[] args) {
         Payment creditCardPayment = new CreditCardPayment();
         PaymentProcessor paymentProcessor1 = new PaymentProcessor(creditCardPayment);
